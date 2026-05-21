@@ -1,11 +1,17 @@
 """
 Fetch Citadele Bank Google Play Store reviews via google-play-scraper.
 
-Unlike Apple, Google Play has a single global review pool. We do three locale
-passes (lv-lv, lt-lt, ee-et) which biases the result toward Latvian /
-Lithuanian / Estonian users and language, then deduplicate by review ID.
-A 'fetched_via' field records every locale pass that returned the review,
-and 'primary_locale' is the first one that found it.
+Google Play returns a different curated subset of reviews depending on the
+(country, language) the API is queried with. To catch the broadest possible
+range of reviewers — including Russian and English speakers in the Baltics,
+and international users — we do 9 locale passes covering native, Russian,
+and English overlays for each of the three Baltic countries. Results are
+deduplicated by review ID, and 'fetched_via' records every pass that
+returned each review.
+
+We also do a 2nd pass with Sort.MOST_RELEVANT because Google's
+"most_relevant" algorithm sometimes surfaces reviews the "newest" sort
+misses (older reviews from heavy users, multi-language reviews, etc).
 
 Output (in ./output/):
   citadele_play_reviews_<timestamp>.json / .xlsx
@@ -26,18 +32,28 @@ from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
-APP_ID = "lv.citadele.mobile"  # Citadele Android package name (one app, all countries)
+APP_ID = "lv.citadele.mobile"
 
-# Each locale pass: (gl country, hl language, display label)
+# 9 locale passes: native + Russian + English overlay per country
+# Each tuple: (gl country code, hl language code, display country label)
 LOCALES = [
     ("lv", "lv", "Latvia"),
+    ("lv", "ru", "Latvia"),
+    ("lv", "en", "Latvia"),
     ("lt", "lt", "Lithuania"),
+    ("lt", "ru", "Lithuania"),
+    ("lt", "en", "Lithuania"),
     ("ee", "et", "Estonia"),
+    ("ee", "ru", "Estonia"),
+    ("ee", "en", "Estonia"),
 ]
 
-BATCH_SIZE = 200          # max google-play-scraper allows per call
-MAX_PER_LOCALE = 2000     # safety cap; Google usually returns far fewer
-THROTTLE_SECONDS = 0.5
+# Both sort orders combined catch reviews the other misses
+SORTS = [Sort.NEWEST, Sort.MOST_RELEVANT]
+
+BATCH_SIZE = 200
+MAX_PER_PASS = 2000
+THROTTLE_SECONDS = 0.3
 
 
 @dataclass
@@ -56,19 +72,20 @@ class Review:
     reply_at_iso: str = ""
 
 
-def fetch_locale(country: str, lang: str, display: str) -> list[dict]:
-    label = f"{country}/{lang}"
+def fetch_pass(country: str, lang: str, display: str, sort: Sort) -> list[dict]:
+    sort_label = "newest" if sort == Sort.NEWEST else "most_relevant"
+    label = f"{country}/{lang}/{sort_label}"
     print(f"\n== {display} ({label}) ==")
     collected: list[dict] = []
     continuation_token = None
-    while len(collected) < MAX_PER_LOCALE:
+    while len(collected) < MAX_PER_PASS:
         try:
             if continuation_token is None:
                 batch, continuation_token = reviews(
                     APP_ID,
                     lang=lang,
                     country=country,
-                    sort=Sort.NEWEST,
+                    sort=sort,
                     count=BATCH_SIZE,
                 )
             else:
@@ -77,7 +94,7 @@ def fetch_locale(country: str, lang: str, display: str) -> list[dict]:
                     continuation_token=continuation_token,
                 )
         except Exception as exc:
-            print(f"  [!] error: {exc}. Stopping this locale.")
+            print(f"  [!] error: {exc}. Stopping this pass.")
             break
 
         if not batch:
@@ -85,7 +102,7 @@ def fetch_locale(country: str, lang: str, display: str) -> list[dict]:
             break
 
         collected.extend(batch)
-        print(f"  batch: {len(batch)} (total this locale: {len(collected)})")
+        print(f"  batch: {len(batch)} (total this pass: {len(collected)})")
 
         if continuation_token is None:
             print("  no continuation token, end of feed.")
@@ -96,13 +113,13 @@ def fetch_locale(country: str, lang: str, display: str) -> list[dict]:
     return collected
 
 
-def merge_reviews(per_locale: dict[str, list[dict]]) -> list[Review]:
-    """Dedupe by reviewId, keep the first locale that found it as primary,
-    record every locale that returned it in fetched_via."""
+def merge_reviews(per_pass: dict[str, list[dict]],
+                  pass_to_country: dict[str, str]) -> list[Review]:
+    """Dedupe by reviewId, keep first-found pass as primary, record all passes that found it."""
     merged: dict[str, Review] = {}
 
-    for label, batch in per_locale.items():
-        country_display = next(d for (g, h, d) in LOCALES if f"{g}/{h}" == label)
+    for label, batch in per_pass.items():
+        country_display = pass_to_country[label]
         for r in batch:
             rid = r.get("reviewId", "") or ""
             if not rid:
@@ -138,12 +155,14 @@ def write_json(reviews_list: list[Review], path: Path) -> None:
         "app_name": "Citadele Bank (Android)",
         "fetched_at_utc": datetime.now(timezone.utc).isoformat(),
         "review_count": len(reviews_list),
-        "locales_scraped": [f"{g}/{h}" for (g, h, _) in LOCALES],
+        "passes_used": [f"{g}/{h}" for (g, h, _) in LOCALES],
+        "sorts_used": ["newest", "most_relevant"],
         "note": (
-            "Google Play has a single global review pool. 'primary_country' "
-            "indicates which locale pass first returned the review (biased by "
-            "Play's regional sort), and is a proxy for likely user origin — not "
-            "a hard country attribution. Use review language for stricter filtering."
+            "Google Play returns a different curated subset per locale. We do 9 "
+            "(country, language) passes x 2 sort orders. 'fetched_via' lists every "
+            "pass that returned the review. 'primary_country' = the first pass's "
+            "country, used as a soft attribution — not a hard country fact, since "
+            "Play does not expose reviewer geography."
         ),
         "reviews": [asdict(r) for r in reviews_list],
     }
@@ -153,8 +172,6 @@ def write_json(reviews_list: list[Review], path: Path) -> None:
 
 def write_xlsx(reviews_list: list[Review], path: Path) -> None:
     wb = Workbook()
-
-    # --- Sheet 1: all reviews ---
     ws = wb.active
     ws.title = "Reviews"
     headers = [
@@ -178,7 +195,7 @@ def write_xlsx(reviews_list: list[Review], path: Path) -> None:
         cell.fill = header_fill
         cell.alignment = Alignment(vertical="center")
 
-    widths = [16, 14, 18, 8, 70, 22, 12, 22, 10, 50, 22, 22]
+    widths = [16, 18, 24, 8, 70, 22, 12, 22, 10, 50, 22, 22]
     for i, w in enumerate(widths, start=1):
         ws.column_dimensions[get_column_letter(i)].width = w
 
@@ -189,14 +206,14 @@ def write_xlsx(reviews_list: list[Review], path: Path) -> None:
     ws.freeze_panes = "A2"
     ws.auto_filter.ref = ws.dimensions
 
-    # --- Sheet 2: summary ---
+    # Summary sheet
     ws2 = wb.create_sheet("Summary")
     ws2.append(["Primary country", "Reviews fetched", "Avg rating", "5★", "4★", "3★", "2★", "1★"])
     for c in ws2[1]:
         c.font = header_font
         c.fill = header_fill
 
-    countries = [d for (_, _, d) in LOCALES]
+    countries = sorted({d for (_, _, d) in LOCALES})
     for i, country in enumerate(countries, start=2):
         ws2.cell(row=i, column=1, value=country)
         ws2.cell(row=i, column=2, value=f'=COUNTIF(Reviews!A:A,A{i})')
@@ -228,12 +245,17 @@ def write_xlsx(reviews_list: list[Review], path: Path) -> None:
 
 
 def main() -> int:
-    per_locale: dict[str, list[dict]] = {}
-    for country, lang, display in LOCALES:
-        batch = fetch_locale(country, lang, display)
-        per_locale[f"{country}/{lang}"] = batch
+    per_pass: dict[str, list[dict]] = {}
+    pass_to_country: dict[str, str] = {}
 
-    merged = merge_reviews(per_locale)
+    for sort in SORTS:
+        sort_label = "newest" if sort == Sort.NEWEST else "most_relevant"
+        for country, lang, display in LOCALES:
+            label = f"{country}/{lang}/{sort_label}"
+            pass_to_country[label] = display
+            per_pass[label] = fetch_pass(country, lang, display, sort)
+
+    merged = merge_reviews(per_pass, pass_to_country)
     if not merged:
         print("No reviews collected.")
         return 1
