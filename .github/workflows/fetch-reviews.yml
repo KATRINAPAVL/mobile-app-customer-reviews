@@ -1,12 +1,12 @@
-name: Fetch Citadele App Store Reviews
+name: Fetch Citadele App Store + Play Store Reviews
 
 on:
   schedule:
     - cron: "0 6 * * 1"   # every Monday 06:00 UTC
-  workflow_dispatch:        # run manually from the Actions tab
+  workflow_dispatch:
 
 permissions:
-  contents: write           # needed to commit the snapshot back to the repo
+  contents: write
 
 jobs:
   fetch:
@@ -21,8 +21,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch reviews
+      - name: Fetch App Store reviews (iOS)
         run: python fetch_reviews.py
+
+      - name: Fetch Play Store reviews (Android)
+        run: python fetch_play_reviews.py
 
       - name: Commit snapshot
         run: |
