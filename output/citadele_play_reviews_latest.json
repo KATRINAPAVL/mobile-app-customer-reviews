@@ -1,8 +1,8 @@
 {
   "app_id": "lv.citadele.mobile",
   "app_name": "Citadele Bank (Android)",
-  "fetched_at_utc": "2026-08-31T12:36:04.703615+00:00",
-  "review_count": 2404,
+  "fetched_at_utc": "2026-09-07T11:29:19.796311+00:00",
+  "review_count": 2412,
   "passes_used": [
     "lv/lv",
     "lv/ru",
@@ -20,6 +20,57 @@
   ],
   "note": "Google Play returns a different curated subset per locale. We do 9 (country, language) passes x 2 sort orders. 'fetched_via' lists every pass that returned the review. 'primary_country' = the first pass's country, used as a soft attribution — not a hard country fact, since Play does not expose reviewer geography.",
   "reviews": [
+    {
+      "review_id": "79522a78-4143-4bfd-850e-539e40735839",
+      "primary_locale": "lv/lv/newest",
+      "fetched_via": [
+        "lv/lv/newest",
+        "lv/lv/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "slikta",
+      "author_name": "Ilze Kuke",
+      "app_version": "46.2",
+      "updated_iso": "2026-09-02T18:15:43",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "ea98cbfe-8fa5-482f-b193-5e3f036ba3cd",
+      "primary_locale": "lv/lv/newest",
+      "fetched_via": [
+        "lv/lv/newest",
+        "lv/lv/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "labi",
+      "author_name": "Annija",
+      "app_version": "46.2",
+      "updated_iso": "2026-09-02T14:22:36",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "09ff7cdf-f3a1-43cc-8797-8c459ac41aaf",
+      "primary_locale": "lv/lv/newest",
+      "fetched_via": [
+        "lv/lv/newest",
+        "lv/lv/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "forši",
+      "author_name": "Alise Karāle",
+      "app_version": "46.3",
+      "updated_iso": "2026-09-02T10:38:48",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
     {
       "review_id": "56daab79-e36b-44ed-8fed-fa848a4780a8",
       "primary_locale": "lv/lv/newest",
@@ -931,7 +982,7 @@
       "primary_country": "Latvia",
       "rating": 3,
       "content": "Plusi: ir pieejama KYC funkcija instalējot lietotni jaunā ierīcē. Mīnusi: nav iespējams izvēlēties ienākošos maksājumus lejupielādējot bankas izrakstu izmantojot mobilo lietotni, gan interneta pārlūkprogrammu.",
-      "author_name": "Ārnijs",
+      "author_name": "Arnolds Švarcenegers",
       "app_version": "45.6",
       "updated_iso": "2025-12-30T14:58:39",
       "thumbs_up": 1,
@@ -2801,7 +2852,7 @@
       "primary_country": "Latvia",
       "rating": 5,
       "content": "viss labi",
-      "author_name": "Sidr1xy",
+      "author_name": "Rinalds Boltāns",
       "app_version": "44.1",
       "updated_iso": "2025-01-24T16:45:46",
       "thumbs_up": 1,
@@ -13055,6 +13106,69 @@
       "author_name": "Google tīkla lietotājs",
       "app_version": "1.0",
       "updated_iso": "2012-03-01T17:37:36",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "50110735-7706-4baf-98b0-46c9dbbf63e8",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "Жаль что их вынудили убрать русский, а в остальном всё работает как часы.",
+      "author_name": "M (P)",
+      "app_version": "46.2",
+      "updated_iso": "2026-09-03T15:11:09",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "242a88fe-6bd4-40ff-a6ba-e310bbd08ac2",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "Постоянные проблемы с приложением",
+      "author_name": "Евгений Семенцов",
+      "app_version": "46.2",
+      "updated_iso": "2026-09-01T07:20:34",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "68832451-a43d-4451-9e0f-215126610340",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "отлично",
+      "author_name": "Андрей Вознюк",
+      "app_version": "46.2",
+      "updated_iso": "2026-08-31T11:37:31",
       "thumbs_up": 0,
       "reply_content": "",
       "reply_at_iso": ""
@@ -25361,7 +25475,7 @@
       "author_name": "Арманд Бидзан",
       "app_version": "",
       "updated_iso": "2023-08-24T17:19:04",
-      "thumbs_up": 21,
+      "thumbs_up": 22,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -29078,7 +29192,7 @@
       "author_name": "ket sejmur",
       "app_version": "13.25",
       "updated_iso": "2020-08-14T17:00:46",
-      "thumbs_up": 17,
+      "thumbs_up": 18,
       "reply_content": "Здравствуй! Проблема с Твоей аппликацией решена. Обнови, пожалуйста, аппликацию в Google Play, чтобы проблема исчезла. Приносим свои извинения за доставленные неудобства, хорошего дня!",
       "reply_at_iso": "2020-08-21T07:37:07"
     },
@@ -30737,7 +30851,7 @@
       "author_name": "Пользователь Google",
       "app_version": "13.7",
       "updated_iso": "2019-09-07T12:28:35",
-      "thumbs_up": 10,
+      "thumbs_up": 11,
       "reply_content": "Здравствуйте! На данный момент такая проблема известна и стараемся ее понять и решить, чтобы наши клиенты моги использовать приложение. Будем рады, если напишите на mobileapp@citadele.lv, для скорейшего решения нашим разработчикам было бы хорошо с вами встретиться и посмотреть телефон.",
       "reply_at_iso": "2019-09-16T05:44:05"
     },
@@ -31199,7 +31313,7 @@
       "author_name": "Пользователь Google",
       "app_version": "13.2",
       "updated_iso": "2019-07-08T09:30:04",
-      "thumbs_up": 72,
+      "thumbs_up": 73,
       "reply_content": "Спасибо, приятно читать! Спасибо за рекомендацию, примем во внимание при планировании дальнейшего развития приложения! Хорошего дня!",
       "reply_at_iso": "2019-08-06T07:38:20"
     },
@@ -42943,6 +43057,23 @@
       "reply_at_iso": ""
     },
     {
+      "review_id": "42439a44-2fc0-4fd4-9f97-075f65344834",
+      "primary_locale": "lt/lt/newest",
+      "fetched_via": [
+        "lt/lt/newest",
+        "lt/lt/most_relevant"
+      ],
+      "primary_country": "Lithuania",
+      "rating": 5,
+      "content": "Tikiuosi gerai yra turėti virtualų banką ir dar kortele, Svarbu, kad ten būtų tiek pinigų, kad galėtum patenkinti ir būtiniausius ir svarbiausius išgyvenimui poreikius. O dar geriau būtų atstatyti tai ką buvo sunaikine aferistai - mano sunkiai, bet sąžiningai už gyventa turtą, o sio rajono gudruciai ir visokie Ale verslininkai sugriovė ir,sudegino mano tik ka nusipirktus šiame rajone namus (Tai įvyko prieš šešis ir šešiolika metu).",
+      "author_name": "Irena Narutyte",
+      "app_version": "46.2",
+      "updated_iso": "2026-09-01T16:06:50",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
       "review_id": "c1ac1bfe-6f1c-43db-b715-1a85ed31abea",
       "primary_locale": "lt/lt/newest",
       "fetched_via": [
@@ -46188,6 +46319,23 @@
       "thumbs_up": 5,
       "reply_content": "Džiaugiamės galėdami informuoti Jus, kad  „Citadele“ banko mobilia programėle jau gali naudotis ir banko klientai Lietuvoje!",
       "reply_at_iso": "2017-04-11T06:47:31"
+    },
+    {
+      "review_id": "06bf13f5-ea7b-4b04-a68e-837d447ebeea",
+      "primary_locale": "ee/et/newest",
+      "fetched_via": [
+        "ee/et/newest",
+        "ee/et/most_relevant"
+      ],
+      "primary_country": "Estonia",
+      "rating": 5,
+      "content": "väga hea pank",
+      "author_name": "Jaanus Kingu",
+      "app_version": "46.2",
+      "updated_iso": "2026-09-05T05:07:43",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
     },
     {
       "review_id": "0f5eba82-234b-479e-b5c9-f85ab51e1d4a",
