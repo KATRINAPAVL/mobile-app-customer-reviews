@@ -1,8 +1,8 @@
 {
   "app_id": "lv.citadele.mobile",
   "app_name": "Citadele Bank (Android)",
-  "fetched_at_utc": "2026-09-14T11:41:29.817614+00:00",
-  "review_count": 2419,
+  "fetched_at_utc": "2026-09-21T11:54:15.379262+00:00",
+  "review_count": 2426,
   "passes_used": [
     "lv/lv",
     "lv/ru",
@@ -20,6 +20,57 @@
   ],
   "note": "Google Play returns a different curated subset per locale. We do 9 (country, language) passes x 2 sort orders. 'fetched_via' lists every pass that returned the review. 'primary_country' = the first pass's country, used as a soft attribution — not a hard country fact, since Play does not expose reviewer geography.",
   "reviews": [
+    {
+      "review_id": "51d2eb0b-db0b-494f-8b70-6c72707f246c",
+      "primary_locale": "lv/lv/newest",
+      "fetched_via": [
+        "lv/lv/newest",
+        "lv/lv/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "ērti,saprotami",
+      "author_name": "Dace",
+      "app_version": "46.2",
+      "updated_iso": "2026-09-20T10:50:11",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "f167be71-79ee-4e74-8f09-bb56a62fffba",
+      "primary_locale": "lv/lv/newest",
+      "fetched_via": [
+        "lv/lv/newest",
+        "lv/lv/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "Aplikācijas screenshot šeit jau vajadzēja krievu valodu likt... :)",
+      "author_name": "Edmunds",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-17T09:17:19",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "f6a67656-8568-4bad-86bc-dc3f1967b2ab",
+      "primary_locale": "lv/lv/newest",
+      "fetched_via": [
+        "lv/lv/newest",
+        "lv/lv/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 2,
+      "content": "sarežģīti. foto grūti uzņemt.",
+      "author_name": "Ieva Mūrniece",
+      "app_version": "46.3",
+      "updated_iso": "2026-09-13T14:53:51",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
     {
       "review_id": "21512a1a-2cd6-4c1a-ab40-02dceb2eec97",
       "primary_locale": "lv/lv/newest",
@@ -8768,7 +8819,7 @@
       "primary_country": "Latvia",
       "rating": 2,
       "content": "Samsung S10+, viss bija kārtībā un kompakti, bet saņemot Android 11 atjauninājumu - widgeta šrifts palika lielāks (samazinot visa tel. šriftu - samazinās, BET tad visam tel. paliek baigi mazs šrifts). Tagad, lai redzētu abus kontus - widgetu jāizstiepj ☹, iskatās visa \"beģimotīgs\" un nepievilcīgs... Uztaisiet updeitu ar samazinātu šriftu pašā widgetā... Es nezinu, kāpēc Andr.11 sačakarēja gan Jūsu, gan Swedbank widgetus... Atsauksmi rediģēšu pēc uzlabojumiem 👍",
-      "author_name": "Vārds Uzvārds",
+      "author_name": "Kaspars Rudzats",
       "app_version": "13.31",
       "updated_iso": "2021-01-20T15:34:08",
       "thumbs_up": 6,
@@ -13128,6 +13179,195 @@
       "reply_at_iso": ""
     },
     {
+      "review_id": "a022b666-a522-44be-9371-f3d2d937176a",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "1 балл за присоединение к политике шовинизма по отношению к русско-язычным. Закон обязывает латышский, а не запрещает русский!!",
+      "author_name": "ГОСДЕП США Рижский филиал",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-19T22:06:03",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "cc3c9e90-e4b4-4580-b439-0a09b644f530",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "Таки убрали русский язык.. Зря. Ну и фиг с вами. Получите 1 звезду.",
+      "author_name": "Андрей Филь",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-19T18:09:16",
+      "thumbs_up": 10,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "bdee8025-7627-43c6-a9a7-14061f38fa90",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "К сожалению, после удаления поддержки русского языка пользоваться приложением стало гораздо менее удобно. Являюсь клиентом банка много лет, но из-за языкового барьера в финансовых терминах теперь приходится тратить лишнее время. Очень жаль, что лояльность клиентов ушла на второй план.",
+      "author_name": "per4i4inkaa",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-18T19:22:47",
+      "thumbs_up": 1,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "dc1bd12c-5085-4bdc-8368-ddd233b49586",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 2,
+      "content": "Куда пропал русский язык???",
+      "author_name": "Igors Mihailovs",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-18T19:12:00",
+      "thumbs_up": 1,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "faba958a-c9cc-49e3-972f-bdc7ab7dacf3",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "Убрали русский язык.",
+      "author_name": "Andrey Elizarov",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-18T09:34:11",
+      "thumbs_up": 1,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "c7ace30d-af9a-422a-8e8b-13c1ac2939a2",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 2,
+      "content": "Нет русского языка - нет 5 звёзд.",
+      "author_name": "vb7bulik",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-17T18:17:35",
+      "thumbs_up": 2,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "35a1a8ab-01e5-46f8-b67b-fab95e2a2877",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "а куда делся русский язык??",
+      "author_name": "Normiksan Saff",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-17T16:26:01",
+      "thumbs_up": 2,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "cffcbb93-e31d-4924-87e8-154c00cac83d",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "не заинтересованы в сохранение своих клиентов",
+      "author_name": "Oleg Vovcenko",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-16T07:02:47",
+      "thumbs_up": 1,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "5e6088a1-b8ce-4802-b038-7b25714191b7",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "Зачем начали рекламу впаривать, вам денег мало, не позорьтесь нищеброды! И уберите русскоязычные картинки приложения, с августа 2026 приложение на русском не работает, не вводите людей в заблуждение.",
+      "author_name": "John Smith",
+      "app_version": "14.6",
+      "updated_iso": "2026-09-15T15:39:41",
+      "thumbs_up": 6,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
       "review_id": "428637ba-5d26-4677-831d-2ec57eb919be",
       "primary_locale": "lv/ru/newest",
       "fetched_via": [
@@ -13333,7 +13573,7 @@
       "author_name": "Ser Laz",
       "app_version": "46.2",
       "updated_iso": "2026-08-21T20:36:49",
-      "thumbs_up": 10,
+      "thumbs_up": 12,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13627,7 +13867,7 @@
       "author_name": "tutohom",
       "app_version": "46.2",
       "updated_iso": "2026-06-27T18:26:42",
-      "thumbs_up": 4,
+      "thumbs_up": 5,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13669,7 +13909,7 @@
       "author_name": "Нурик Нур",
       "app_version": "46.1",
       "updated_iso": "2026-06-24T02:55:02",
-      "thumbs_up": 1,
+      "thumbs_up": 2,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13796,27 +14036,6 @@
       "app_version": "",
       "updated_iso": "2026-06-10T15:16:38",
       "thumbs_up": 1,
-      "reply_content": "",
-      "reply_at_iso": ""
-    },
-    {
-      "review_id": "243da71b-01fb-4098-9768-8f19f21fe0d5",
-      "primary_locale": "lv/ru/newest",
-      "fetched_via": [
-        "lv/ru/newest",
-        "lt/ru/newest",
-        "ee/ru/newest",
-        "lv/ru/most_relevant",
-        "lt/ru/most_relevant",
-        "ee/ru/most_relevant"
-      ],
-      "primary_country": "Latvia",
-      "rating": 5,
-      "content": "Лучшее, на данный момент, приложение для банков",
-      "author_name": "Sergej A.",
-      "app_version": "46.1",
-      "updated_iso": "2026-06-03T10:27:23",
-      "thumbs_up": 4,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -15244,7 +15463,7 @@
       "author_name": "Пользователь Google",
       "app_version": "45.5",
       "updated_iso": "2025-12-10T17:27:26",
-      "thumbs_up": 11,
+      "thumbs_up": 12,
       "reply_content": "Labdien, visus savus šablonus iespējams atrast, izmantojot lauku \"Meklēt maksājuma saņēmēju\". Lai atrastu kādu konkrētu šablonus, jāievada tā pirmie trīs simboli. Lai atrastu visus šablonus, jāievada vārds - šabloni, template, paraugi.",
       "reply_at_iso": "2016-07-04T07:15:10"
     },
@@ -17383,7 +17602,7 @@
       "primary_country": "Latvia",
       "rating": 5,
       "content": "всё отлично",
-      "author_name": "Ahmed Safarov",
+      "author_name": "Akhmed Safarov",
       "app_version": "45.0",
       "updated_iso": "2025-05-11T07:17:27",
       "thumbs_up": 0,
@@ -20848,7 +21067,7 @@
       "primary_country": "Latvia",
       "rating": 5,
       "content": "very good serviss",
-      "author_name": "Andrejs Polozovs",
+      "author_name": "Andy Panda",
       "app_version": "16.2",
       "updated_iso": "2024-08-16T11:53:12",
       "thumbs_up": 0,
@@ -25875,27 +26094,6 @@
       "reply_at_iso": ""
     },
     {
-      "review_id": "cc3c9e90-e4b4-4580-b439-0a09b644f530",
-      "primary_locale": "lv/ru/newest",
-      "fetched_via": [
-        "lv/ru/newest",
-        "lt/ru/newest",
-        "ee/ru/newest",
-        "lv/ru/most_relevant",
-        "lt/ru/most_relevant",
-        "ee/ru/most_relevant"
-      ],
-      "primary_country": "Latvia",
-      "rating": 1,
-      "content": "Реально раньше работало и никаких проблем. Сейчас в течение месяца Мобилескан просто тупо не выполняет своих предназначений. Захожу в приложение, мобиле выдаёт введите пароль, блин а биометрия нафига? Перейдите в интернет банк и актуализируйте анкету, заходим, введите пароль! Вы серьёзно, я не помню пароль и зочу его сбросить. Короче звоните утром. Недоволен.",
-      "author_name": "Андрей Филь",
-      "app_version": "15.1",
-      "updated_iso": "2023-05-10T17:29:33",
-      "thumbs_up": 9,
-      "reply_content": "",
-      "reply_at_iso": ""
-    },
-    {
       "review_id": "e8f9fbdb-bfdf-4a81-a804-2bd608e24088",
       "primary_locale": "lv/ru/newest",
       "fetched_via": [
@@ -26711,27 +26909,6 @@
       "app_version": "14.5",
       "updated_iso": "2022-06-28T11:15:04",
       "thumbs_up": 0,
-      "reply_content": "",
-      "reply_at_iso": ""
-    },
-    {
-      "review_id": "5e6088a1-b8ce-4802-b038-7b25714191b7",
-      "primary_locale": "lv/ru/newest",
-      "fetched_via": [
-        "lv/ru/newest",
-        "lt/ru/newest",
-        "ee/ru/newest",
-        "lv/ru/most_relevant",
-        "lt/ru/most_relevant",
-        "ee/ru/most_relevant"
-      ],
-      "primary_country": "Latvia",
-      "rating": 1,
-      "content": "Зачем начали рекламу впаривать, вам денег мало, не позорьтесь нищеброды!",
-      "author_name": "John Smith",
-      "app_version": "14.5",
-      "updated_iso": "2022-06-27T08:34:21",
-      "thumbs_up": 5,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -28790,27 +28967,6 @@
       "app_version": "13.31",
       "updated_iso": "2020-12-17T19:22:34",
       "thumbs_up": 19,
-      "reply_content": "",
-      "reply_at_iso": ""
-    },
-    {
-      "review_id": "90de7809-950d-4a48-9bdb-b8c4a3977a45",
-      "primary_locale": "lv/ru/newest",
-      "fetched_via": [
-        "lv/ru/newest",
-        "lt/ru/newest",
-        "ee/ru/newest",
-        "lv/ru/most_relevant",
-        "lt/ru/most_relevant",
-        "ee/ru/most_relevant"
-      ],
-      "primary_country": "Latvia",
-      "rating": 1,
-      "content": "Добавьте возможность авторизации с отдельным паролем, а не кодовой картой или smart id, а то постоянно и для всего использовать кодовую карту, это прошлый век",
-      "author_name": "Mc KoSmonaft",
-      "app_version": "13.29",
-      "updated_iso": "2020-12-11T22:37:23",
-      "thumbs_up": 0,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -31456,7 +31612,7 @@
       "author_name": "Пользователь Google",
       "app_version": "13.2",
       "updated_iso": "2019-07-08T09:30:04",
-      "thumbs_up": 73,
+      "thumbs_up": 74,
       "reply_content": "Спасибо, приятно читать! Спасибо за рекомендацию, примем во внимание при планировании дальнейшего развития приложения! Хорошего дня!",
       "reply_at_iso": "2019-08-06T07:38:20"
     },
@@ -32929,27 +33085,6 @@
       "thumbs_up": 0,
       "reply_content": "Здравствуйте, Артем! Рады Вашему отзыву и оценке! Удачного дня Вам!",
       "reply_at_iso": "2018-08-23T11:57:12"
-    },
-    {
-      "review_id": "c82024c1-4f82-45dd-914e-fad983124f17",
-      "primary_locale": "lv/ru/newest",
-      "fetched_via": [
-        "lv/ru/newest",
-        "lt/ru/newest",
-        "ee/ru/newest",
-        "lv/ru/most_relevant",
-        "lt/ru/most_relevant",
-        "ee/ru/most_relevant"
-      ],
-      "primary_country": "Latvia",
-      "rating": 5,
-      "content": "Стильно 👍👍👍",
-      "author_name": "Пользователь Google",
-      "app_version": "12.14",
-      "updated_iso": "2018-08-02T06:51:43",
-      "thumbs_up": 0,
-      "reply_content": "Здравствуйте! Спасибо за отзыв и оценку! Удачного дня!",
-      "reply_at_iso": "2018-08-03T11:27:08"
     },
     {
       "review_id": "fe20b71f-430e-4fe6-bd61-c2c34b00f74d",
