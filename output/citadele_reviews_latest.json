@@ -1,8 +1,8 @@
 {
   "app_id": "495139240",
   "app_name": "Citadele Bank",
-  "fetched_at_utc": "2026-09-21T11:53:42.455690+00:00",
-  "review_count": 200,
+  "fetched_at_utc": "2026-09-28T12:48:36.426918+00:00",
+  "review_count": 203,
   "countries": [
     "Estonia",
     "Lithuania",
@@ -662,6 +662,45 @@
     {
       "country_code": "lv",
       "country_name": "Latvia",
+      "review_id": "14583170206",
+      "rating": 2,
+      "title": "not easy",
+      "content": "not easy and hard to use app",
+      "author_name": "B.Pedra",
+      "author_uri": "https://itunes.apple.com/lv/reviews/id1795631204",
+      "app_version": "46.6",
+      "updated": "2026-09-23T01:39:49-07:00",
+      "page": 1
+    },
+    {
+      "country_code": "lv",
+      "country_name": "Latvia",
+      "review_id": "14575159952",
+      "rating": 1,
+      "title": "Мне не нравится",
+      "content": "Очень странно убрать русский язык в Латвии, но оставить а Литве и Эстонии.",
+      "author_name": "dmi3j",
+      "author_uri": "https://itunes.apple.com/lv/reviews/id178776926",
+      "app_version": "46.6",
+      "updated": "2026-09-20T23:27:49-07:00",
+      "page": 1
+    },
+    {
+      "country_code": "lv",
+      "country_name": "Latvia",
+      "review_id": "14571829960",
+      "rating": 2,
+      "title": "Languages",
+      "content": "Would be nice to respect your users",
+      "author_name": "Karina17d",
+      "author_uri": "https://itunes.apple.com/lv/reviews/id1074032706",
+      "app_version": "46.6",
+      "updated": "2026-09-20T04:04:21-07:00",
+      "page": 1
+    },
+    {
+      "country_code": "lv",
+      "country_name": "Latvia",
       "review_id": "14569716155",
       "rating": 1,
       "title": "Built for the bank",
@@ -1281,7 +1320,7 @@
       "author_uri": "https://itunes.apple.com/lv/reviews/id1234649714",
       "app_version": "14.0",
       "updated": "2024-03-04T07:16:56-07:00",
-      "page": 1
+      "page": 2
     },
     {
       "country_code": "lv",
@@ -1294,7 +1333,7 @@
       "author_uri": "https://itunes.apple.com/lv/reviews/id1482507137",
       "app_version": "13.7",
       "updated": "2024-02-24T08:45:02-07:00",
-      "page": 1
+      "page": 2
     },
     {
       "country_code": "lv",
@@ -1307,7 +1346,7 @@
       "author_uri": "https://itunes.apple.com/lv/reviews/id1285648071",
       "app_version": "13.7",
       "updated": "2024-02-22T21:28:50-07:00",
-      "page": 1
+      "page": 2
     },
     {
       "country_code": "lv",
@@ -1411,19 +1450,6 @@
       "author_uri": "https://itunes.apple.com/lv/reviews/id1567530686",
       "app_version": "12.48",
       "updated": "2024-01-12T22:41:55-07:00",
-      "page": 2
-    },
-    {
-      "country_code": "lv",
-      "country_name": "Latvia",
-      "review_id": "10722314576",
-      "rating": 5,
-      "title": "Nice one",
-      "content": "Nice one",
-      "author_name": "dmi3j",
-      "author_uri": "https://itunes.apple.com/lv/reviews/id178776926",
-      "app_version": "13.7",
-      "updated": "2023-12-20T04:48:56-07:00",
       "page": 2
     },
     {
@@ -1944,7 +1970,7 @@
       "author_uri": "https://itunes.apple.com/lv/reviews/id108465413",
       "app_version": "12.41",
       "updated": "2021-10-19T12:32:20-07:00",
-      "page": 2
+      "page": 3
     },
     {
       "country_code": "lv",
@@ -1957,7 +1983,7 @@
       "author_uri": "https://itunes.apple.com/lv/reviews/id1339911016",
       "app_version": "12.41",
       "updated": "2021-10-17T09:14:36-07:00",
-      "page": 2
+      "page": 3
     },
     {
       "country_code": "lv",
@@ -2594,7 +2620,7 @@
       "author_uri": "https://itunes.apple.com/lv/reviews/id86692157",
       "app_version": "1.0",
       "updated": "2012-11-06T01:13:01-07:00",
-      "page": 3
+      "page": 4
     },
     {
       "country_code": "lv",
@@ -2607,7 +2633,20 @@
       "author_uri": "https://itunes.apple.com/lv/reviews/id184854201",
       "app_version": "1.0",
       "updated": "2012-04-28T22:13:08-07:00",
-      "page": 3
+      "page": 4
+    },
+    {
+      "country_code": "lv",
+      "country_name": "Latvia",
+      "review_id": "564940384",
+      "rating": 5,
+      "title": "MK",
+      "content": "Программа класс, надо иметь каждому у кого счет в этом банке",
+      "author_name": "Maklim",
+      "author_uri": "https://itunes.apple.com/lv/reviews/id230838062",
+      "app_version": "1.0",
+      "updated": "2012-04-16T05:08:10-07:00",
+      "page": 4
     }
   ]
 }
