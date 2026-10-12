@@ -1,8 +1,8 @@
 {
   "app_id": "lv.citadele.mobile",
   "app_name": "Citadele Bank (Android)",
-  "fetched_at_utc": "2026-09-28T12:49:09.138980+00:00",
-  "review_count": 2437,
+  "fetched_at_utc": "2026-10-12T14:19:59.953699+00:00",
+  "review_count": 2448,
   "passes_used": [
     "lv/lv",
     "lv/ru",
@@ -356,23 +356,6 @@
       "author_name": "Kukuza",
       "app_version": "46.2",
       "updated_iso": "2026-07-27T06:36:52",
-      "thumbs_up": 0,
-      "reply_content": "",
-      "reply_at_iso": ""
-    },
-    {
-      "review_id": "e1bfd213-3380-4291-a1ed-467fa3154c75",
-      "primary_locale": "lv/lv/newest",
-      "fetched_via": [
-        "lv/lv/newest",
-        "lv/lv/most_relevant"
-      ],
-      "primary_country": "Latvia",
-      "rating": 5,
-      "content": "ļoti labs",
-      "author_name": "Ņikita Solodarenko",
-      "app_version": "46.2",
-      "updated_iso": "2026-07-11T22:19:39",
       "thumbs_up": 0,
       "reply_content": "",
       "reply_at_iso": ""
@@ -6694,7 +6677,7 @@
       "primary_country": "Latvia",
       "rating": 5,
       "content": "ļoti ērti un ātri",
-      "author_name": "NEONBLACK",
+      "author_name": "Markuzzins",
       "app_version": "15.5",
       "updated_iso": "2023-12-21T05:47:04",
       "thumbs_up": 0,
@@ -7136,7 +7119,7 @@
       "primary_country": "Latvia",
       "rating": 5,
       "content": "Ļoti laba lietotne citadele, dažreiz ir problēmas ar punktiem un tehnikas problēmas bet tas neko neietekmē.",
-      "author_name": "vnk romans",
+      "author_name": "Romāns Raščevskis",
       "app_version": "15.0",
       "updated_iso": "2023-04-03T05:37:01",
       "thumbs_up": 1,
@@ -10335,7 +10318,7 @@
       "author_name": "Google tīkla lietotājs",
       "app_version": "13.7",
       "updated_iso": "2019-08-19T07:55:38",
-      "thumbs_up": 6,
+      "thumbs_up": 5,
       "reply_content": "Hei, hei, iepērkoties internetā ar karti, skenēt kodu nav nepieciešams, ja Tev ir MobileSCAN un ir pieslēgti aplikācijas paziņojumi. Tad koda skenēšanas vietā aplikācijā parādās kontroles kods, ko nepieciešams apstiprināt. Ja vajadzīga palīdzība, zvani 67010000, priecāsimies palīdzēt! Lai veiksmīga diena!",
       "reply_at_iso": "2019-08-19T08:30:55"
     },
@@ -13196,6 +13179,153 @@
       "reply_at_iso": ""
     },
     {
+      "review_id": "2c51dda2-5790-4169-8a97-4807da3339fc",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "отличное приложение 👍👍👍",
+      "author_name": "DODOJON KARIMOV",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-11T07:26:26",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "af438fcc-418e-4b8b-b6b1-00bb64fafa77",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "Нет языковых настроек. Сложнее исользование,в отличии от конкурентов.",
+      "author_name": "Павел Кунгуров",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-10T04:00:29",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "237c39d9-e1a8-4e4c-9b85-8749b66fc9ec",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "без проблем",
+      "author_name": "Денис Ярмантович",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-06T08:13:22",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "914e98e2-2a81-47ed-a3ad-8ddc49abfbf4",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "отлично",
+      "author_name": "Alisher Avezov",
+      "app_version": "46.2",
+      "updated_iso": "2026-10-05T11:24:17",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "969a2331-162f-41c7-a97b-a517652635ad",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "верните русский язык в приложении",
+      "author_name": "jugors",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-03T06:20:14",
+      "thumbs_up": 1,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "8f5da647-c950-4192-9b1c-dca8540d8227",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "Супер",
+      "author_name": "Boyazid",
+      "app_version": "46.3",
+      "updated_iso": "2026-09-30T15:43:34",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "96d3a5a9-0152-48cf-ad0f-6788041706db",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "удобный банк",
+      "author_name": "Andrejs Kostins",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-30T12:06:29",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
       "review_id": "a3f5e2d2-a905-4511-8868-548c66cd1c3f",
       "primary_locale": "lv/ru/newest",
       "fetched_via": [
@@ -13254,7 +13384,7 @@
       "author_name": "Andrejs Kiula",
       "app_version": "46.4",
       "updated_iso": "2026-09-26T09:12:00",
-      "thumbs_up": 1,
+      "thumbs_up": 2,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13275,7 +13405,7 @@
       "author_name": "Марина Мных",
       "app_version": "46.4",
       "updated_iso": "2026-09-25T17:40:57",
-      "thumbs_up": 1,
+      "thumbs_up": 2,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13296,7 +13426,7 @@
       "author_name": "Водители Kingsrod",
       "app_version": "",
       "updated_iso": "2026-09-24T15:17:14",
-      "thumbs_up": 0,
+      "thumbs_up": 1,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13338,7 +13468,7 @@
       "author_name": "Тимур Боев",
       "app_version": "46.4",
       "updated_iso": "2026-09-22T09:00:02",
-      "thumbs_up": 2,
+      "thumbs_up": 3,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13359,7 +13489,7 @@
       "author_name": "varna111",
       "app_version": "46.4",
       "updated_iso": "2026-09-21T09:23:57",
-      "thumbs_up": 2,
+      "thumbs_up": 3,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13401,7 +13531,7 @@
       "author_name": "Hanna Hanna",
       "app_version": "46.4",
       "updated_iso": "2026-09-20T12:26:45",
-      "thumbs_up": 0,
+      "thumbs_up": 1,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13422,7 +13552,7 @@
       "author_name": "ГОСДЕП США Рижский филиал",
       "app_version": "46.4",
       "updated_iso": "2026-09-19T22:06:03",
-      "thumbs_up": 2,
+      "thumbs_up": 3,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13443,7 +13573,7 @@
       "author_name": "Андрей Филь",
       "app_version": "46.4",
       "updated_iso": "2026-09-19T18:09:16",
-      "thumbs_up": 12,
+      "thumbs_up": 13,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13464,7 +13594,7 @@
       "author_name": "per4i4inkaa",
       "app_version": "46.4",
       "updated_iso": "2026-09-18T19:22:47",
-      "thumbs_up": 3,
+      "thumbs_up": 4,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13485,7 +13615,7 @@
       "author_name": "Igors Mihailovs",
       "app_version": "46.4",
       "updated_iso": "2026-09-18T19:12:00",
-      "thumbs_up": 2,
+      "thumbs_up": 3,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13506,7 +13636,7 @@
       "author_name": "Andrey Elizarov",
       "app_version": "46.4",
       "updated_iso": "2026-09-18T09:34:11",
-      "thumbs_up": 3,
+      "thumbs_up": 4,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13527,7 +13657,7 @@
       "author_name": "vb7bulik",
       "app_version": "46.4",
       "updated_iso": "2026-09-17T18:17:35",
-      "thumbs_up": 3,
+      "thumbs_up": 4,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13548,7 +13678,7 @@
       "author_name": "Normiksan Saff",
       "app_version": "46.4",
       "updated_iso": "2026-09-17T16:26:01",
-      "thumbs_up": 3,
+      "thumbs_up": 4,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13569,7 +13699,7 @@
       "author_name": "Oleg Vovcenko",
       "app_version": "46.4",
       "updated_iso": "2026-09-16T07:02:47",
-      "thumbs_up": 2,
+      "thumbs_up": 3,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13590,7 +13720,7 @@
       "author_name": "John Smith",
       "app_version": "14.6",
       "updated_iso": "2026-09-15T15:39:41",
-      "thumbs_up": 7,
+      "thumbs_up": 8,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13737,7 +13867,7 @@
       "author_name": "M (P)",
       "app_version": "46.2",
       "updated_iso": "2026-09-03T15:11:09",
-      "thumbs_up": 1,
+      "thumbs_up": 2,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13800,7 +13930,7 @@
       "author_name": "Ser Laz",
       "app_version": "46.2",
       "updated_iso": "2026-08-21T20:36:49",
-      "thumbs_up": 13,
+      "thumbs_up": 14,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -14514,7 +14644,7 @@
       "author_name": "Сергей Сергеевич",
       "app_version": "46.0",
       "updated_iso": "2026-05-08T16:05:43",
-      "thumbs_up": 0,
+      "thumbs_up": 1,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -16044,7 +16174,7 @@
       "primary_country": "Latvia",
       "rating": 4,
       "content": "nadeznostj,prostota i kreativ.",
-      "author_name": "Олег Лякин",
+      "author_name": "Оlegs Lakins",
       "app_version": "45.3",
       "updated_iso": "2025-11-01T21:03:14",
       "thumbs_up": 0,
@@ -18942,7 +19072,7 @@
       "primary_country": "Latvia",
       "rating": 2,
       "content": "Старое было лучше. Это глючное и всё время весит в системе и не требует новой аутификации каждый раз, но без нее не работает 🤷🏻‍♂️",
-      "author_name": "Oleg Grig",
+      "author_name": "Olegs Grigorjevs",
       "app_version": "44.1",
       "updated_iso": "2025-01-24T07:02:18",
       "thumbs_up": 1,
@@ -24465,7 +24595,7 @@
       "primary_country": "Latvia",
       "rating": 5,
       "content": "отлично",
-      "author_name": "Raiymbek Kubanychbekov",
+      "author_name": "Rom Cubilov",
       "app_version": "15.5",
       "updated_iso": "2023-12-26T14:28:16",
       "thumbs_up": 0,
@@ -25263,7 +25393,7 @@
       "primary_country": "Latvia",
       "rating": 2,
       "content": "Очень долгая загрузка начального экрана. Не хочется даже туда заходить. С другими банками такой проблемы нет. Мне не нравится.",
-      "author_name": "Дариан",
+      "author_name": "Darians Lebedevs",
       "app_version": "15.5",
       "updated_iso": "2023-12-21T09:14:44",
       "thumbs_up": 3,
@@ -26043,7 +26173,7 @@
       "author_name": "Арманд Бидзан",
       "app_version": "",
       "updated_iso": "2023-08-24T17:19:04",
-      "thumbs_up": 22,
+      "thumbs_up": 23,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -27111,7 +27241,7 @@
       "primary_country": "Latvia",
       "rating": 1,
       "content": "Глюки вылетают постоянно!!!! Ре могу вообще зайти в него(((((",
-      "author_name": "Марче Могилевска",
+      "author_name": "Maryna Mohylevska",
       "app_version": "14.5",
       "updated_iso": "2022-06-28T11:15:04",
       "thumbs_up": 0,
@@ -31818,7 +31948,7 @@
       "author_name": "Пользователь Google",
       "app_version": "13.2",
       "updated_iso": "2019-07-08T09:30:04",
-      "thumbs_up": 75,
+      "thumbs_up": 76,
       "reply_content": "Спасибо, приятно читать! Спасибо за рекомендацию, примем во внимание при планировании дальнейшего развития приложения! Хорошего дня!",
       "reply_at_iso": "2019-08-06T07:38:20"
     },
@@ -35456,6 +35586,111 @@
       "reply_at_iso": ""
     },
     {
+      "review_id": "757e83d2-91ca-4e36-8772-acdf740f79cc",
+      "primary_locale": "lv/en/newest",
+      "fetched_via": [
+        "lv/en/newest",
+        "lt/en/newest",
+        "ee/en/newest",
+        "lv/en/most_relevant",
+        "lt/en/most_relevant",
+        "ee/en/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 2,
+      "content": "Updated my review. After using the Citadel bank for a year I got a message from the bank that \"we are closing your account\" with no specific reason was mentioned. This is not acceptable.",
+      "author_name": "Jean Claude",
+      "app_version": "45.6",
+      "updated_iso": "2026-10-11T09:46:26",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "2bdf405f-ca91-4f07-a288-fe26eb95c0d1",
+      "primary_locale": "lv/en/newest",
+      "fetched_via": [
+        "lv/en/newest",
+        "lt/en/newest",
+        "ee/en/newest",
+        "lv/en/most_relevant",
+        "lt/en/most_relevant",
+        "ee/en/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "perfect 👌",
+      "author_name": "Prince vuyisile",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-09T10:54:31",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "a5aff43f-ecea-4256-83c6-5331b544c633",
+      "primary_locale": "lv/en/newest",
+      "fetched_via": [
+        "lv/en/newest",
+        "lt/en/newest",
+        "ee/en/newest",
+        "lv/en/most_relevant",
+        "lt/en/most_relevant",
+        "ee/en/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "За то что убрали русский язык.",
+      "author_name": "Zheka",
+      "app_version": "45.3",
+      "updated_iso": "2026-10-04T19:26:29",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "489eb980-e8b9-4c79-a48c-6769a1c4efb3",
+      "primary_locale": "lv/en/newest",
+      "fetched_via": [
+        "lv/en/newest",
+        "lt/en/newest",
+        "ee/en/newest",
+        "lv/en/most_relevant",
+        "lt/en/most_relevant",
+        "ee/en/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 2,
+      "content": "Regulāri jāveic atkārtota uzstādīšana. aplikācija nav uzticama, vienmēr jābūt gatavam dokumentam un brīvam laikam, visnepiemērotākajos brīžos. neiesaku, ja Jūsu laiks un ērtības ir svarīgas.",
+      "author_name": "Davids Dane",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-30T02:57:35",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "d7115043-51a6-43fa-874f-872a09c12106",
+      "primary_locale": "lv/en/newest",
+      "fetched_via": [
+        "lv/en/newest",
+        "lt/en/newest",
+        "ee/en/newest",
+        "lv/en/most_relevant",
+        "lt/en/most_relevant",
+        "ee/en/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "Very bad app design, Very ugly and difficult authentication, not recommend",
+      "author_name": "SlaX",
+      "app_version": "46.4",
+      "updated_iso": "2026-09-28T07:22:01",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
       "review_id": "541eaae2-4144-43bb-aeb1-27b29c4f735c",
       "primary_locale": "lv/en/newest",
       "fetched_via": [
@@ -35955,27 +36190,6 @@
       "author_name": "Georgijs Samoilenko",
       "app_version": "45.6",
       "updated_iso": "2026-03-04T12:23:52",
-      "thumbs_up": 0,
-      "reply_content": "",
-      "reply_at_iso": ""
-    },
-    {
-      "review_id": "757e83d2-91ca-4e36-8772-acdf740f79cc",
-      "primary_locale": "lv/en/newest",
-      "fetched_via": [
-        "lv/en/newest",
-        "lt/en/newest",
-        "ee/en/newest",
-        "lv/en/most_relevant",
-        "lt/en/most_relevant",
-        "ee/en/most_relevant"
-      ],
-      "primary_country": "Latvia",
-      "rating": 5,
-      "content": "been using it for 1 year great service",
-      "author_name": "Jean Claude",
-      "app_version": "45.6",
-      "updated_iso": "2026-02-09T07:38:11",
       "thumbs_up": 0,
       "reply_content": "",
       "reply_at_iso": ""
@@ -37254,7 +37468,7 @@
       "primary_country": "Latvia",
       "rating": 3,
       "content": "Хорошо. Очень хорошо. Но это уже в прошлом. 06.03.2025. увы, оценку пришлось снизить до трёх звёздочек из-за появившейся рекламы, которую нельзя отключить не просмотрев её.",
-      "author_name": "Vladislavs H.",
+      "author_name": "1 2",
       "app_version": "45.0",
       "updated_iso": "2025-03-06T21:02:11",
       "thumbs_up": 1,
@@ -43562,6 +43776,23 @@
       "reply_at_iso": ""
     },
     {
+      "review_id": "9eb72ca7-3260-4471-a3ed-113de7d1955b",
+      "primary_locale": "lt/lt/newest",
+      "fetched_via": [
+        "lt/lt/newest",
+        "lt/lt/most_relevant"
+      ],
+      "primary_country": "Lithuania",
+      "rating": 5,
+      "content": "greitai",
+      "author_name": "Rasa Jotkė",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-07T18:02:58",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
       "review_id": "42439a44-2fc0-4fd4-9f97-075f65344834",
       "primary_locale": "lt/lt/newest",
       "fetched_via": [
@@ -43574,7 +43805,7 @@
       "author_name": "Irena Narutyte",
       "app_version": "46.2",
       "updated_iso": "2026-09-01T16:06:50",
-      "thumbs_up": 1,
+      "thumbs_up": 2,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -43591,7 +43822,7 @@
       "author_name": "Vytas Jareckas",
       "app_version": "46.2",
       "updated_iso": "2026-07-16T13:25:22",
-      "thumbs_up": 2,
+      "thumbs_up": 3,
       "reply_content": "",
       "reply_at_iso": ""
     },
