@@ -1,8 +1,8 @@
 {
   "app_id": "lv.citadele.mobile",
   "app_name": "Citadele Bank (Android)",
-  "fetched_at_utc": "2026-10-12T14:19:59.953699+00:00",
-  "review_count": 2448,
+  "fetched_at_utc": "2026-10-19T12:00:53.921754+00:00",
+  "review_count": 2452,
   "passes_used": [
     "lv/lv",
     "lv/ru",
@@ -33,7 +33,7 @@
       "author_name": "Inita Bērziņa",
       "app_version": "46.4",
       "updated_iso": "2026-09-23T08:04:49",
-      "thumbs_up": 0,
+      "thumbs_up": 1,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -13179,6 +13179,69 @@
       "reply_at_iso": ""
     },
     {
+      "review_id": "1c642557-3c0e-45f8-9c66-d49ded12b838",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "👌 Super",
+      "author_name": "Владимир Прус",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-17T14:14:32",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "3280d1ca-2c2e-403f-9a21-f922e1898ddc",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "хорошая банка доверенное и без опасный",
+      "author_name": "Habibbullo Karaboev",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-17T04:36:34",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "c87eb7f8-2745-4a5b-8947-424de693e14c",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "очень удобно пользоватса.все понятно без заморочек",
+      "author_name": "Rinat Valiev",
+      "app_version": "",
+      "updated_iso": "2026-10-13T16:41:13",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
       "review_id": "2c51dda2-5790-4169-8a97-4807da3339fc",
       "primary_locale": "lv/ru/newest",
       "fetched_via": [
@@ -14224,7 +14287,7 @@
       "author_name": "tutohom",
       "app_version": "46.2",
       "updated_iso": "2026-06-27T18:26:42",
-      "thumbs_up": 6,
+      "thumbs_up": 7,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -24595,7 +24658,7 @@
       "primary_country": "Latvia",
       "rating": 5,
       "content": "отлично",
-      "author_name": "Rom Cubilov",
+      "author_name": "Raiymbek Kubanychbekov",
       "app_version": "15.5",
       "updated_iso": "2023-12-26T14:28:16",
       "thumbs_up": 0,
@@ -31948,7 +32011,7 @@
       "author_name": "Пользователь Google",
       "app_version": "13.2",
       "updated_iso": "2019-07-08T09:30:04",
-      "thumbs_up": 76,
+      "thumbs_up": 75,
       "reply_content": "Спасибо, приятно читать! Спасибо за рекомендацию, примем во внимание при планировании дальнейшего развития приложения! Хорошего дня!",
       "reply_at_iso": "2019-08-06T07:38:20"
     },
@@ -43771,6 +43834,23 @@
       "author_name": "A Google user",
       "app_version": "1.0",
       "updated_iso": "2012-02-29T20:39:57",
+      "thumbs_up": 1,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "a25560e9-7100-4739-baf6-560f8a44f2cb",
+      "primary_locale": "lt/lt/newest",
+      "fetched_via": [
+        "lt/lt/newest",
+        "lt/lt/most_relevant"
+      ],
+      "primary_country": "Lithuania",
+      "rating": 5,
+      "content": "Geras bankas",
+      "author_name": "Gabrielius Valionis",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-16T18:51:10",
       "thumbs_up": 1,
       "reply_content": "",
       "reply_at_iso": ""
