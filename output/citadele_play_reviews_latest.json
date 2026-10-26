@@ -1,8 +1,8 @@
 {
   "app_id": "lv.citadele.mobile",
   "app_name": "Citadele Bank (Android)",
-  "fetched_at_utc": "2026-10-19T12:00:53.921754+00:00",
-  "review_count": 2452,
+  "fetched_at_utc": "2026-10-26T12:11:58.286052+00:00",
+  "review_count": 2454,
   "passes_used": [
     "lv/lv",
     "lv/ru",
@@ -7139,7 +7139,7 @@
       "author_name": "Jans Bbbb",
       "app_version": "15.0",
       "updated_iso": "2023-03-23T08:56:54",
-      "thumbs_up": 4,
+      "thumbs_up": 3,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -9077,23 +9077,6 @@
       "author_name": "Janis Talcis",
       "app_version": "13.27",
       "updated_iso": "2020-10-20T17:38:24",
-      "thumbs_up": 0,
-      "reply_content": "",
-      "reply_at_iso": ""
-    },
-    {
-      "review_id": "25188458-f7c4-4b8b-bb02-bd84eaaf5256",
-      "primary_locale": "lv/lv/newest",
-      "fetched_via": [
-        "lv/lv/newest",
-        "lv/lv/most_relevant"
-      ],
-      "primary_country": "Latvia",
-      "rating": 5,
-      "content": "Paldies meitenem",
-      "author_name": "Malda Jirgensone",
-      "app_version": "13.28",
-      "updated_iso": "2020-10-18T15:39:07",
       "thumbs_up": 0,
       "reply_content": "",
       "reply_at_iso": ""
@@ -13179,6 +13162,48 @@
       "reply_at_iso": ""
     },
     {
+      "review_id": "e5e4b7fa-8f45-4266-8e01-e7ed1ee803ea",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "Переходите в Revolut, там приложение на удобном для клиентов языке",
+      "author_name": "Dat Cortez",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-20T18:44:06",
+      "thumbs_up": 1,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "f0596ead-a9e8-499f-9337-b8507dfeb60e",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "быстро и точно.спасибо.",
+      "author_name": "nadezda vasiljeva",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-19T07:10:33",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
       "review_id": "1c642557-3c0e-45f8-9c66-d49ded12b838",
       "primary_locale": "lv/ru/newest",
       "fetched_via": [
@@ -16783,7 +16808,7 @@
       "primary_country": "Latvia",
       "rating": 1,
       "content": "При открытии приложения. Начало просить имя пользователя Удалил приложение и скачал новое..Возникли трудности при установке Решил воспользоваться помощником, который говорит-В ЛЮБОЕ ВРЕМЯ ПОМОЖЕМ... ПОМОГЛИ ТЕМ, ЧТО СКАЗАЛ ЗВОНИТЬ В РАБОЧЕЕ ВРЕМЯ!! ОТСТОЙНЫЙ БАНК",
-      "author_name": "Aleksandr Urfinbek",
+      "author_name": "Aleksandr Trolpjatnadcatj",
       "app_version": "45.3",
       "updated_iso": "2025-10-07T04:46:22",
       "thumbs_up": 6,
@@ -35665,7 +35690,7 @@
       "author_name": "Jean Claude",
       "app_version": "45.6",
       "updated_iso": "2026-10-11T09:46:26",
-      "thumbs_up": 0,
+      "thumbs_up": 1,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -35707,7 +35732,7 @@
       "author_name": "Zheka",
       "app_version": "45.3",
       "updated_iso": "2026-10-04T19:26:29",
-      "thumbs_up": 0,
+      "thumbs_up": 1,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -36043,7 +36068,7 @@
       "author_name": "Dana Lima",
       "app_version": "",
       "updated_iso": "2026-05-03T17:03:43",
-      "thumbs_up": 0,
+      "thumbs_up": 1,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -36064,7 +36089,7 @@
       "author_name": "Šamas (Šamas)",
       "app_version": "46.0",
       "updated_iso": "2026-04-27T16:37:01",
-      "thumbs_up": 1,
+      "thumbs_up": 2,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -36610,7 +36635,7 @@
       "author_name": "User",
       "app_version": "",
       "updated_iso": "2025-10-15T22:17:15",
-      "thumbs_up": 0,
+      "thumbs_up": 1,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -38455,7 +38480,7 @@
       "primary_country": "Latvia",
       "rating": 5,
       "content": "very good management all staff are very kindly they give all information about anything you ask related accounts loans every thing.",
-      "author_name": "IRFAN SHAIKH",
+      "author_name": "IRFAN MOHAMAD SHAIKH",
       "app_version": "16.3",
       "updated_iso": "2024-09-21T09:24:49",
       "thumbs_up": 1,
@@ -39088,7 +39113,7 @@
       "author_name": "V. J.",
       "app_version": "16.1",
       "updated_iso": "2024-04-19T00:20:43",
-      "thumbs_up": 2,
+      "thumbs_up": 3,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -43835,6 +43860,23 @@
       "app_version": "1.0",
       "updated_iso": "2012-02-29T20:39:57",
       "thumbs_up": 1,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "f1b9e4e9-8c9a-4ac1-a18d-65d7130e9796",
+      "primary_locale": "lt/lt/newest",
+      "fetched_via": [
+        "lt/lt/newest",
+        "lt/lt/most_relevant"
+      ],
+      "primary_country": "Lithuania",
+      "rating": 5,
+      "content": "SUPER !",
+      "author_name": "Andrius",
+      "app_version": "46.4",
+      "updated_iso": "2026-10-22T21:01:39",
+      "thumbs_up": 0,
       "reply_content": "",
       "reply_at_iso": ""
     },
