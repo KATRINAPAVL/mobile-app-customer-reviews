@@ -1,8 +1,8 @@
 {
   "app_id": "lv.citadele.mobile",
   "app_name": "Citadele Bank (Android)",
-  "fetched_at_utc": "2026-11-02T14:40:59.160913+00:00",
-  "review_count": 2463,
+  "fetched_at_utc": "2026-11-09T15:03:40.204180+00:00",
+  "review_count": 2465,
   "passes_used": [
     "lv/lv",
     "lv/ru",
@@ -3889,7 +3889,7 @@
       "primary_country": "Latvia",
       "rating": 5,
       "content": "ir ok",
-      "author_name": "Mārtiņš Bankevics",
+      "author_name": "Rīga Ludza",
       "app_version": "16.3",
       "updated_iso": "2024-10-17T12:16:44",
       "thumbs_up": 0,
@@ -13213,6 +13213,48 @@
       "reply_at_iso": ""
     },
     {
+      "review_id": "0476a164-0897-4295-819f-864358ff784b",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "Guud",
+      "author_name": "Roman Luki",
+      "app_version": "46.4",
+      "updated_iso": "2026-11-04T17:05:08",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "1272b6aa-9e35-4b50-8aaf-3398e663fd26",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 3,
+      "content": "нет руского....",
+      "author_name": "Bran Killa",
+      "app_version": "46.4",
+      "updated_iso": "2026-11-02T13:34:54",
+      "thumbs_up": 0,
+      "reply_content": "Paldies par atsauksmi! Saprotam, ka valodas maiņa var radīt neērtības.\nIzmaiņas ir noteiktas Latvijas Kredītiestāžu likumā, kas attiecas uz visām Latvijas bankām. Aicinām izmantot digitālās iespējas informācijas tulkošanai sev vēlamajā valodā, tostarp Citadeles mākslīgā intelekta konsultanti Adeli. Ja nepieciešama palīdzība, sazinieties ar mums.",
+      "reply_at_iso": "2026-11-08T07:06:48"
+    },
+    {
       "review_id": "179dac34-b959-4a68-961e-1d78ba85920a",
       "primary_locale": "lv/ru/newest",
       "fetched_via": [
@@ -13230,8 +13272,8 @@
       "app_version": "46.4",
       "updated_iso": "2026-10-30T12:03:41",
       "thumbs_up": 0,
-      "reply_content": "",
-      "reply_at_iso": ""
+      "reply_content": "Paldies par atsauksmi! Saprotam, ka valodas maiņa var radīt neērtības.\nIzmaiņas ir noteiktas Latvijas Kredītiestāžu likumā, kas attiecas uz visām Latvijas bankām. Aicinām izmantot digitālās iespējas informācijas tulkošanai sev vēlamajā valodā, tostarp Citadeles mākslīgā intelekta konsultanti Adeli. Ja nepieciešama palīdzība, sazinieties ar mums.",
+      "reply_at_iso": "2026-11-08T07:07:16"
     },
     {
       "review_id": "3d5fa2a8-0c83-4091-9fa2-402f0438ee14",
@@ -13293,8 +13335,8 @@
       "app_version": "46.4",
       "updated_iso": "2026-10-20T18:44:06",
       "thumbs_up": 1,
-      "reply_content": "",
-      "reply_at_iso": ""
+      "reply_content": "Paldies par atsauksmi! Saprotam, ka valodas maiņa var radīt neērtības.\nIzmaiņas ir noteiktas Latvijas Kredītiestāžu likumā, kas attiecas uz visām Latvijas bankām. Aicinām izmantot digitālās iespējas informācijas tulkošanai sev vēlamajā valodā, tostarp Citadeles mākslīgā intelekta konsultanti Adeli. Ja nepieciešama palīdzība, sazinieties ar mums.",
+      "reply_at_iso": "2026-11-08T07:07:57"
     },
     {
       "review_id": "f0596ead-a9e8-499f-9337-b8507dfeb60e",
@@ -13397,27 +13439,6 @@
       "author_name": "DODOJON KARIMOV",
       "app_version": "46.4",
       "updated_iso": "2026-10-11T07:26:26",
-      "thumbs_up": 0,
-      "reply_content": "",
-      "reply_at_iso": ""
-    },
-    {
-      "review_id": "af438fcc-418e-4b8b-b6b1-00bb64fafa77",
-      "primary_locale": "lv/ru/newest",
-      "fetched_via": [
-        "lv/ru/newest",
-        "lt/ru/newest",
-        "ee/ru/newest",
-        "lv/ru/most_relevant",
-        "lt/ru/most_relevant",
-        "ee/ru/most_relevant"
-      ],
-      "primary_country": "Latvia",
-      "rating": 1,
-      "content": "Нет языковых настроек. Сложнее исользование,в отличии от конкурентов.",
-      "author_name": "Павел Кунгуров",
-      "app_version": "46.4",
-      "updated_iso": "2026-10-10T04:00:29",
       "thumbs_up": 0,
       "reply_content": "",
       "reply_at_iso": ""
@@ -14426,7 +14447,7 @@
       "author_name": "tutohom",
       "app_version": "46.2",
       "updated_iso": "2026-06-27T18:26:42",
-      "thumbs_up": 7,
+      "thumbs_up": 10,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -26375,7 +26396,7 @@
       "author_name": "Арманд Бидзан",
       "app_version": "",
       "updated_iso": "2023-08-24T17:19:04",
-      "thumbs_up": 23,
+      "thumbs_up": 25,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -32150,7 +32171,7 @@
       "author_name": "Пользователь Google",
       "app_version": "13.2",
       "updated_iso": "2019-07-08T09:30:04",
-      "thumbs_up": 75,
+      "thumbs_up": 76,
       "reply_content": "Спасибо, приятно читать! Спасибо за рекомендацию, примем во внимание при планировании дальнейшего развития приложения! Хорошего дня!",
       "reply_at_iso": "2019-08-06T07:38:20"
     },
@@ -44020,6 +44041,23 @@
       "reply_at_iso": ""
     },
     {
+      "review_id": "400b8e7a-1ce1-422f-a50f-8bb661840a95",
+      "primary_locale": "lt/lt/newest",
+      "fetched_via": [
+        "lt/lt/newest",
+        "lt/lt/most_relevant"
+      ],
+      "primary_country": "Lithuania",
+      "rating": 1,
+      "content": "Neleidžia tapti klientu per programėlę, vis tiek gaunu sms, kad reikia atvykti į banką dėl kortelės, nors kortelę pasirenku skaitmeninę. Dokumentą įkeliu, per smart id bandžiau ir vis ta pati problema. Deja.",
+      "author_name": "Eglė Misevičiūtė",
+      "app_version": "46.4",
+      "updated_iso": "2026-11-04T13:16:00",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
       "review_id": "99e57afc-42ae-4371-891c-31775db5bbc9",
       "primary_locale": "lt/lt/newest",
       "fetched_via": [
@@ -44049,7 +44087,7 @@
       "author_name": "Andrius",
       "app_version": "46.4",
       "updated_iso": "2026-10-22T21:01:39",
-      "thumbs_up": 0,
+      "thumbs_up": 1,
       "reply_content": "",
       "reply_at_iso": ""
     },
