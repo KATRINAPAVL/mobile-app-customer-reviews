@@ -1,8 +1,8 @@
 {
   "app_id": "lv.citadele.mobile",
   "app_name": "Citadele Bank (Android)",
-  "fetched_at_utc": "2026-11-09T15:03:40.204180+00:00",
-  "review_count": 2465,
+  "fetched_at_utc": "2026-11-16T14:40:13.598657+00:00",
+  "review_count": 2469,
   "passes_used": [
     "lv/lv",
     "lv/ru",
@@ -20,6 +20,57 @@
   ],
   "note": "Google Play returns a different curated subset per locale. We do 9 (country, language) passes x 2 sort orders. 'fetched_via' lists every pass that returned the review. 'primary_country' = the first pass's country, used as a soft attribution — not a hard country fact, since Play does not expose reviewer geography.",
   "reviews": [
+    {
+      "review_id": "b9faef2e-1cd1-4117-8f30-1afe78ee56c8",
+      "primary_locale": "lv/lv/newest",
+      "fetched_via": [
+        "lv/lv/newest",
+        "lv/lv/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 4,
+      "content": "garš process",
+      "author_name": "Intis Kenigsvaldd",
+      "app_version": "46.4",
+      "updated_iso": "2026-11-14T09:01:25",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "5c5a0af1-bab4-4f9c-9b7a-bc3adb88543c",
+      "primary_locale": "lv/lv/newest",
+      "fetched_via": [
+        "lv/lv/newest",
+        "lv/lv/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "viss kārtībā",
+      "author_name": "Dainis Jelinskis",
+      "app_version": "46.4",
+      "updated_iso": "2026-11-13T21:00:35",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "27a28d33-9467-45cc-acaf-e70d927b4353",
+      "primary_locale": "lv/lv/newest",
+      "fetched_via": [
+        "lv/lv/newest",
+        "lv/lv/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "Nevaru atvērt kontu, jo pats neprotu visu pareizi aizpildīt. Ja cits palīdz app nestrādā.",
+      "author_name": "Andris",
+      "app_version": "",
+      "updated_iso": "2026-11-12T12:03:31",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
     {
       "review_id": "7b3e52c1-2ecf-4937-bbb8-60e93be2b5d1",
       "primary_locale": "lv/lv/newest",
@@ -3617,7 +3668,7 @@
       "primary_country": "Latvia",
       "rating": 3,
       "content": "Pēc pēdējā atjauninājuma nestrādā ātrais atlikums.",
-      "author_name": "Daina Pranca",
+      "author_name": "Daina Vecgaile",
       "app_version": "44.0",
       "updated_iso": "2024-11-11T12:17:34",
       "thumbs_up": 2,
@@ -12720,23 +12771,6 @@
       "reply_at_iso": ""
     },
     {
-      "review_id": "48db328e-e95a-4a79-bfd4-ec223fa009ec",
-      "primary_locale": "lv/lv/newest",
-      "fetched_via": [
-        "lv/lv/newest",
-        "lv/lv/most_relevant"
-      ],
-      "primary_country": "Latvia",
-      "rating": 4,
-      "content": "Ceru ka ir to verts",
-      "author_name": "Google tīkla lietotājs",
-      "app_version": "",
-      "updated_iso": "2016-05-18T08:53:25",
-      "thumbs_up": 0,
-      "reply_content": "",
-      "reply_at_iso": ""
-    },
-    {
       "review_id": "d82316b0-9910-4fc1-af1f-08f313f7acdd",
       "primary_locale": "lv/lv/newest",
       "fetched_via": [
@@ -13208,6 +13242,48 @@
       "author_name": "Google tīkla lietotājs",
       "app_version": "1.0",
       "updated_iso": "2012-03-01T17:37:36",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "393c35e9-9347-4cf2-8614-c1c2d74140f6",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 5,
+      "content": "ērti un ātri",
+      "author_name": "Karina Kantiseva",
+      "app_version": "46.4",
+      "updated_iso": "2026-11-12T11:52:27",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
+    },
+    {
+      "review_id": "2097ba8e-d563-45c8-8825-958ad02664bb",
+      "primary_locale": "lv/ru/newest",
+      "fetched_via": [
+        "lv/ru/newest",
+        "lt/ru/newest",
+        "ee/ru/newest",
+        "lv/ru/most_relevant",
+        "lt/ru/most_relevant",
+        "ee/ru/most_relevant"
+      ],
+      "primary_country": "Latvia",
+      "rating": 1,
+      "content": "Всем новым пользователям, бизнесс пакета , ваш бизнесс должен уходить на выходные в выходные, т.к банк не работает и переводы на ваш счет не поступают с субботы до понедельника.",
+      "author_name": "Vladislav Burdinavics",
+      "app_version": "46.4",
+      "updated_iso": "2026-11-09T06:46:13",
       "thumbs_up": 0,
       "reply_content": "",
       "reply_at_iso": ""
@@ -14339,7 +14415,7 @@
       "primary_country": "Latvia",
       "rating": 5,
       "content": "ok",
-      "author_name": "Kristijana Bolina",
+      "author_name": "Пользователь Google",
       "app_version": "46.2",
       "updated_iso": "2026-07-27T12:32:09",
       "thumbs_up": 1,
@@ -14447,7 +14523,7 @@
       "author_name": "tutohom",
       "app_version": "46.2",
       "updated_iso": "2026-06-27T18:26:42",
-      "thumbs_up": 10,
+      "thumbs_up": 11,
       "reply_content": "",
       "reply_at_iso": ""
     },
@@ -25658,7 +25734,7 @@
       "primary_country": "Latvia",
       "rating": 5,
       "content": "мне нравится, работает чётко.",
-      "author_name": "Vicky Gra",
+      "author_name": "Vicky Gra (Viktorija Grafova)",
       "app_version": "15.5",
       "updated_iso": "2023-12-21T06:03:39",
       "thumbs_up": 0,
@@ -28328,7 +28404,7 @@
       "author_name": "Aleksandr Pan",
       "app_version": "14.1",
       "updated_iso": "2021-11-12T17:43:27",
-      "thumbs_up": 48,
+      "thumbs_up": 49,
       "reply_content": "Спасибо за отзыв. И у нас самые лучшие клиенты!",
       "reply_at_iso": "2019-02-18T11:42:49"
     },
@@ -32171,7 +32247,7 @@
       "author_name": "Пользователь Google",
       "app_version": "13.2",
       "updated_iso": "2019-07-08T09:30:04",
-      "thumbs_up": 76,
+      "thumbs_up": 77,
       "reply_content": "Спасибо, приятно читать! Спасибо за рекомендацию, примем во внимание при планировании дальнейшего развития приложения! Хорошего дня!",
       "reply_at_iso": "2019-08-06T07:38:20"
     },
@@ -43243,27 +43319,6 @@
       "reply_at_iso": "2018-05-15T13:20:18"
     },
     {
-      "review_id": "9f25ecda-b096-4cc1-9b8d-e79a6f64e40c",
-      "primary_locale": "lv/en/newest",
-      "fetched_via": [
-        "lv/en/newest",
-        "lt/en/newest",
-        "ee/en/newest",
-        "lv/en/most_relevant",
-        "lt/en/most_relevant",
-        "ee/en/most_relevant"
-      ],
-      "primary_country": "Latvia",
-      "rating": 1,
-      "content": "25 megabaitai ir nėra greito likučio pažiurėjimo galimybės.....kaip nėra \nreikalingo funkcionalumo, taip nėra....laikas uždaryti sąskaitą.... \n\"sekiau, sekiau naujienas\", taip ir niekas nepasikeitė... Uždariau \nsąskaitą. Naudosiuosi kito banko paslaugomis",
-      "author_name": "A Google user",
-      "app_version": "11.3",
-      "updated_iso": "2018-04-18T13:17:14",
-      "thumbs_up": 0,
-      "reply_content": "Dėkojame už Jūsų atsiliepimą. Deja, techniniai vystymai nevyksta taip greitai, kaip norėtume... Kad ir kaip būtų apmaudu. Tai ir toliau lieka prioritetiniu klausimu ir banko strategine kryptimi. Negalime pažadėti tikslaus termino, bet greito likučio funkcionalumas tikrai bus įgyvendintas.",
-      "reply_at_iso": "2018-04-24T07:07:18"
-    },
-    {
       "review_id": "04a77090-e6ea-4448-897a-7d499dec61f0",
       "primary_locale": "lv/en/newest",
       "fetched_via": [
@@ -47371,6 +47426,23 @@
       "thumbs_up": 5,
       "reply_content": "Džiaugiamės galėdami informuoti Jus, kad  „Citadele“ banko mobilia programėle jau gali naudotis ir banko klientai Lietuvoje!",
       "reply_at_iso": "2017-04-11T06:47:31"
+    },
+    {
+      "review_id": "1bfbec6f-6bef-4ab9-8276-8bd864f95bcb",
+      "primary_locale": "ee/et/newest",
+      "fetched_via": [
+        "ee/et/newest",
+        "ee/et/most_relevant"
+      ],
+      "primary_country": "Estonia",
+      "rating": 2,
+      "content": "töötab enamjaolt normaalselt aga suht pläust näeb välja ikka",
+      "author_name": "Niklas Kuslap",
+      "app_version": "46.4",
+      "updated_iso": "2026-11-13T21:43:29",
+      "thumbs_up": 0,
+      "reply_content": "",
+      "reply_at_iso": ""
     },
     {
       "review_id": "20d89f2e-f3b4-465a-91b7-bf3d784f9253",
